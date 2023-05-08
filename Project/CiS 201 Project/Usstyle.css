@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Edu+NSW+ACT+Foundation&family=Faustina:wght@300&family=Marck+Script&family=Pacifico&family=Sacramento&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Faustina', sans-serif;
+    background: #E6E6E6;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Instrument Serif', sans-serif;
+    text-align: center;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+h2{
+color:#084817;
+font-size: 5rem;
+font-weight: 700;
+letter-spacing: 8px;
+margin-bottom: 2rem;
+text-align: center;
+}
+h3{
+color:#084817;
+font-size: 4rem;
+font-weight: 400;
+text-align: center;
+}
+
+.image{
+    margin-top: 8rem;
+    margin-bottom: 500;
+    text-align: center;
+}
+
+p{
+    font-size: 2rem;
+    color:ef94cc;
+    line-height: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    color: #ef94cc  ;
+}
+
+.btn{
+    display: inline-block;
+    padding: 2.7rem 7.5rem;
+    background: #084817;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    transition: background 0.5s;
+    text-align: center;
+
+}
+
+.btn:hover{
+    background: #fff;
+    text-align: center;
+}
+.Csection
+{
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+}
+
+
+html {
+    height: 100%;
+    background: radial-gradient(ellipse at bottom, #E6E6E6 0%, #E6E6E6 100%);
+    overflow: hidden;
+  }
+  
+  
+ 

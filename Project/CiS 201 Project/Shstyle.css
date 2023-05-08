@@ -1,0 +1,381 @@
+:root{
+    --pink: #ef94cc;
+}
+*
+{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: space-between;
+    outline: none; 
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 2s linear;
+}
+html
+{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+section
+{
+    padding:2rem 9%;
+}
+.heading
+{
+    text-align: center;
+    font-size: 4rem;
+    color: #084817;
+    padding: 1rem;
+    margin: 2rem 0;
+    background:#E6E6E6
+}
+.heading span
+{
+    color: var(--pink);
+}
+.btn
+{
+    display: inline-block;
+    margin-top: 1.5rem;
+    border-radius: 5rem;
+    background: #084817;
+    color: #E6E6E6;
+    padding: 2rem 3.5rem;
+    cursor: pointer;
+    font-size: 1,7rem;
+}
+.btn:hover
+{
+    background: var(--pink);
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #E6E6E6;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow:0 .5rem 1rem #084817;
+}
+header .shologo
+{
+    font-size: 3rem;
+    color: #084817;
+    font-weight: bolder;
+}
+header .shologo span
+{
+    color: var(--pink);
+}
+header .navbar a 
+{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #084817;
+}
+header .navbar a:hover
+{
+    color: var(--pink);
+}
+header .icon a
+{
+    font-size: 2.5rem;
+    color: #084817;
+    margin-left: 1.5rem;
+}
+header .icon a:hover
+{
+    color: var(--pink);
+}
+header #toggler
+{
+    display: none;
+}
+header .fa-bars
+{
+    font-size: 3rem;
+    color: #084817;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: .1rem solid #ef94cc;
+    display: none;
+}
+.AbouteUs
+{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: #E6E6E6;
+    background-size: cover;
+    background-position: center;
+}
+.AbouteUs .content
+{
+    max-width: 50rem;
+}
+.AbouteUs .content h3 
+{
+    font-size: 5rem;
+    color: #084817;
+}
+.AbouteUs .content span
+{
+    font-size: 2.5rem;
+    color: var(--pink);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+.AbouteUs .content p
+{
+    font-size: 1.5rem;
+    color: #084817;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+.About .row
+{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+.About .row .video-container
+{
+    flex: 1 1 40rem;
+    position: relative;
+}
+.About .row .video-container video
+{
+    width: 100%;
+    border: 1.5rem solid #E6E6E6;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem #084817;
+    height: 100%;
+    object-fit: cover;
+}
+.About .row .video-container h3
+{
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+font-size: 5.2rem;
+background: #E6E6E6;
+padding: 1rem 3rem;
+text-align: center;
+mix-blend-mode: screen;
+}
+.About .row .content
+{
+flex: 1 1 4rem;
+}
+.About .row .content h3 
+{
+    font-size: 3rem;
+    color: #084817;
+}
+.About .row .content p
+{
+    font-size: 1.5rem;
+    color: #E6E6E6;
+    padding: .5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+.icons-container
+{
+    background: #E6E6E6;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.icons-container .icons
+{
+    background: #E6E6E6;
+    border: 1rem solid #084817;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex: 1 1 25rem;
+}
+.icons-container .icons img
+{
+    height: 5rem;
+    margin-right: 2rem;
+}
+.icons-container .icons h3 
+{
+    color: #084817;
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+}
+.icons-container .icons span
+{
+    color: #ef94cc;
+    font-size: 1.3rem;
+}
+.Products .box-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.Products .box-container .box 
+{
+    flex: 1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem #ef94cc;
+    border-radius: .5rem;
+    border: .1rem solid #ef94cc;
+    position: relative;
+    background: #E6E6E6;
+}
+.Products .box-container .box .imge 
+{
+    position: relative;
+    text-align: center;
+    padding: 2rem;
+    overflow: hidden;
+}
+.Products .box-container .box .imge img
+{
+    height: 40rem;
+}
+.Products .box-container .box:hover .imge img
+{
+    transform: scale(1.1);
+}
+.Products .box-container .box .imge .icons
+{
+    position: absolute;
+    bottom: -7rem; left: 0; right: 0;
+    display: flex;
+}
+.Products .box-container .box:hover .imge .icons
+{
+bottom: 0;
+}
+.Products .box-container .box .imge .icons a
+{
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    width: 50%;
+    background: #ef94cc;
+    color: #E6E6E6;
+}
+.Products .box-container .box .imge .icons .cart-btn
+{
+    border-left: .1rem solid #E6E6E6;
+    border-right:.1rem solid #E6E6E6;
+    width: 100%;
+}
+.Products .box-container .box .imge .icons a:hover
+{
+    background: #084817;
+}
+.Products .box-container .box .content
+{
+    padding: 2rem;
+    text-align: center;
+}
+.Products .box-container .box .content h3 
+{
+    font-size: 2.5rem;
+    color: #084817;
+}
+.Products .box-container .box .content .Price 
+{
+  font-size: 2.5rem;
+  color: var(--pink);
+  font-weight: bolder;
+  padding-top: 1rem;  
+}
+.Review .box-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.Review .box-container .box
+{
+    flex: 1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem #084817;
+    border-radius: .5rem;
+    padding: 3rem 2rem;
+    position: relative;
+    border: .2rem solid #084817;
+}
+.Review .box-container .box .fa-quote-right
+{
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    font-size: 6rem;
+    color: #E6E6E6;
+}
+.Review .box-container .box .stars i
+{
+    color: var(--pink);
+    font-size: 2rem;
+}
+.Review .box-container .box p
+{
+    color: #084817;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-top: 2rem;
+}
+.Review .box-container .box .user
+{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+.Review .box-container .box .user img
+{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+.Review .box-container .box .user h3
+{
+    font-size: 2rem;
+    color: #084817;
+}
+.Review .box-container .box .user span
+{
+    font-size: 1.5rem;
+    color: #ef94cc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

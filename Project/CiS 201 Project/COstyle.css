@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Edu+NSW+ACT+Foundation&family=Faustina:wght@300&family=Marck+Script&family=Pacifico&family=Sacramento&display=swap');
+
+:root{
+    --pink: #ef94cc;
+}
+  *
+  {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Faustina, sans-serif;
+    outline: none; 
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 2s linear;
+  }
+  section
+  {
+      position: relative;
+      width: 100%;
+      min-height: 100vh;
+      padding: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #E6E6E6;
+  
+  }
+  header
+  {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #E6E6E6;
+      padding: 1.2rem 9%;
+      display: flex;
+      justify-content: space-between;
+      z-index: 1000;
+      box-shadow:0 .5rem 1rem #084817;
+       align-items: center;
+  }
+  header .shologo
+  {
+      font-size: 2rem;
+      color: #084817;
+      font-weight: bolder;
+  }
+  header .shologo span
+  {
+      color: var(--pink);
+  }
+  header .navbar a 
+  {
+      font-size: 1.5rem;
+      padding: 0 1.5rem;
+      color: #084817;
+  }
+  header .navbar a:hover
+  {
+      color: var(--pink);
+  }
+.Conts
+{
+max-width: 1100px;
+margin: 0 auto;
+padding: 0 3rem;
+margin-top: 4rem;
+}
+h1
+{
+    color: #084817;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+}
+h2
+{
+    color: #ef94cc;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+
